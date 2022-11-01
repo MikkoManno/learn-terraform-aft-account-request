@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "aws-gofore-cloud-management+sandbox-aft@gofore.com"
     AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
+    ManagedOrganizationalUnit = "dev"
     SSOUserEmail              = "aws-gofore-cloud-management+sandbox-aft@gofore.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
